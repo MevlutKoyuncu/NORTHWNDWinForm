@@ -1,0 +1,11 @@
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\bin\Debug\NORTHWNDWinForm.exe.config
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\bin\Debug\NORTHWNDWinForm.exe
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\bin\Debug\NORTHWNDWinForm.pdb
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.csproj.AssemblyReference.cache
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.LoginForm.resources
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.Properties.Resources.resources
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.csproj.GenerateResource.cache
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.csproj.CoreCompileInputs.cache
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.exe
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.pdb
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.MainForm.resources
