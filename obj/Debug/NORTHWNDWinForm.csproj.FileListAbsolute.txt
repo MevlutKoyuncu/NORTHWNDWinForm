@@ -9,3 +9,5 @@ C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDW
 C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.exe
 C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.pdb
 C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.MainForm.resources
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.Categories.resources
+C:\Users\Mevlut\source\repos\NORTHWNDWinForm\NORTHWNDWinForm\obj\Debug\NORTHWNDWinForm.AddCategory.resources
