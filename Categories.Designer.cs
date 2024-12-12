@@ -34,7 +34,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.duzenleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.silToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btn_catadd = new System.Windows.Forms.Button();
+            this.btn_catagoryadd = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_categories)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -78,33 +78,33 @@
             // duzenleToolStripMenuItem
             // 
             this.duzenleToolStripMenuItem.Name = "duzenleToolStripMenuItem";
-            this.duzenleToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.duzenleToolStripMenuItem.Size = new System.Drawing.Size(132, 24);
             this.duzenleToolStripMenuItem.Text = "Duzenle";
             this.duzenleToolStripMenuItem.Click += new System.EventHandler(this.duzenleToolStripMenuItem_Click);
             // 
             // silToolStripMenuItem
             // 
             this.silToolStripMenuItem.Name = "silToolStripMenuItem";
-            this.silToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.silToolStripMenuItem.Size = new System.Drawing.Size(132, 24);
             this.silToolStripMenuItem.Text = "Sil";
             // 
-            // btn_catadd
+            // btn_catagoryadd
             // 
-            this.btn_catadd.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_catadd.Location = new System.Drawing.Point(18, 22);
-            this.btn_catadd.Name = "btn_catadd";
-            this.btn_catadd.Size = new System.Drawing.Size(151, 38);
-            this.btn_catadd.TabIndex = 1;
-            this.btn_catadd.Text = "Kategori Ekle";
-            this.btn_catadd.UseVisualStyleBackColor = true;
-            this.btn_catadd.Click += new System.EventHandler(this.btn_catadd_Click);
+            this.btn_catagoryadd.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_catagoryadd.Location = new System.Drawing.Point(18, 22);
+            this.btn_catagoryadd.Name = "btn_catagoryadd";
+            this.btn_catagoryadd.Size = new System.Drawing.Size(151, 38);
+            this.btn_catagoryadd.TabIndex = 1;
+            this.btn_catagoryadd.Text = "Kategori Ekle";
+            this.btn_catagoryadd.UseVisualStyleBackColor = true;
+            this.btn_catagoryadd.Click += new System.EventHandler(this.btn_categoryadd_Click);
             // 
             // Categories
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1006, 721);
-            this.Controls.Add(this.btn_catadd);
+            this.Controls.Add(this.btn_catagoryadd);
             this.Controls.Add(this.groupBox1);
             this.Name = "Categories";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -124,6 +124,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem duzenleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem silToolStripMenuItem;
-        private System.Windows.Forms.Button btn_catadd;
+        private System.Windows.Forms.Button btn_catagoryadd;
     }
 }

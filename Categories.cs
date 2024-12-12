@@ -58,17 +58,12 @@ namespace NORTHWNDWinForm
 
         }
 
-        private void btn_catadd_Click(object sender, EventArgs e)
-        {
-            AddCategory addCategory = new AddCategory();
-            addCategory.ShowDialog();
-        }
-
         private void duzenleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddCategory cat = new AddCategory();
-            cat.ShowDialog(Owner);
-
+            AddCategory addCategory = new AddCategory();
+            addCategory
+            addCategory.ShowDialog();
+            CategoriesList();
         }
 
         private void dgv_categories_MouseClick(object sender, MouseEventArgs e)
@@ -85,6 +80,13 @@ namespace NORTHWNDWinForm
 
                 }
             }
+        }
+
+        private void btn_categoryadd_Click(object sender, EventArgs e)
+        {
+            AddCategory addCategory = new AddCategory();
+            addCategory.ShowDialog();
+            CategoriesList();
         }
     }
 }
