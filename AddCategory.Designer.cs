@@ -133,7 +133,7 @@
             this.btn_catedit.TabIndex = 0;
             this.btn_catedit.Text = "Kategoriyi Duzenle";
             this.btn_catedit.UseVisualStyleBackColor = true;
-            this.btn_catedit.Click += new System.EventHandler(this.btn_cataedit_Click);
+            this.btn_catedit.Click += new System.EventHandler(this.btn_catedit_Click);
             // 
             // AddCategory
             // 

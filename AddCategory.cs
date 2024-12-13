@@ -49,7 +49,7 @@ namespace NORTHWNDWinForm
             }
         }
 
-        private void btn_cataedit_Click(object sender, EventArgs e)
+        private void btn_catedit_Click(object sender, EventArgs e)
         {
             btn_catadd.Visible = false;
             if (!string.IsNullOrEmpty(tb_catname.Text))
@@ -75,7 +75,9 @@ namespace NORTHWNDWinForm
                     con.Close();
                 }
                 btn_catedit.Visible = false;
-                tb_catname.Text = tb_catdesc.Text = tb_catno.Text = "";
+                tb_catno.Text = tb_catname.Text = tb_catdesc.Text = "";
+                Categories cat = new Categories();
+                
             }
         }
     }

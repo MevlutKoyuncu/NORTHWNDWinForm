@@ -61,7 +61,6 @@ namespace NORTHWNDWinForm
         private void duzenleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AddCategory addCategory = new AddCategory();
-            addCategory
             addCategory.ShowDialog();
             CategoriesList();
         }
@@ -84,9 +83,29 @@ namespace NORTHWNDWinForm
 
         private void btn_categoryadd_Click(object sender, EventArgs e)
         {
-            AddCategory addCategory = new AddCategory();
-            addCategory.ShowDialog();
+            AddCategory adc = new AddCategory();
+            adc.
+            adc.ShowDialog();
             CategoriesList();
+        }
+
+        private void silToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (rowindex != -1)
+            {
+                int id = Convert.ToInt32(dgv_categories.Rows[rowindex].Cells[0].Value);
+
+                if (MessageBox.Show($"{id} id'li kategori silinecektir.\nOnaylıyor musunuz?", "Kategori Sil", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+                {
+                    SqlConnection con = new SqlConnection(@"Data Source=.; Initial Catalog=NORTHWND; Integrated Security=True");
+                    SqlCommand cmd = con.CreateCommand();
+                    cmd.CommandText = "DELETE FROM Categories WHERE CategoryID=@id";
+                    cmd.Parameters.AddWithValue("@id", id);
+                    try { con.Open(); cmd.ExecuteNonQuery(); }
+                    finally { con.Close(); }
+                    CategoriesList();
+                }
+            }
         }
     }
 }
