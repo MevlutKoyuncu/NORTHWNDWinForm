@@ -60,9 +60,14 @@ namespace NORTHWNDWinForm
 
         private void duzenleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddCategory addCategory = new AddCategory();
-            addCategory.ShowDialog();
+            if (rowindex != -1)
+            {
+                //Helper.cid = Convert.ToInt32(dgv_categories.Rows[rowindex].Cells[0].Value);
+                AddCategory addCategory = new AddCategory(Convert.ToInt32(dgv_categories.Rows[rowindex].Cells[0].Value));
+                addCategory.ShowDialog();
+            }
             CategoriesList();
+          
         }
 
         private void dgv_categories_MouseClick(object sender, MouseEventArgs e)
@@ -84,7 +89,6 @@ namespace NORTHWNDWinForm
         private void btn_categoryadd_Click(object sender, EventArgs e)
         {
             AddCategory adc = new AddCategory();
-            adc.
             adc.ShowDialog();
             CategoriesList();
         }

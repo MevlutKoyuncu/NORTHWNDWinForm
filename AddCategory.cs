@@ -22,7 +22,17 @@ namespace NORTHWNDWinForm
             cmd = con.CreateCommand();
             InitializeComponent();
         }
-
+        public AddCategory(int id)
+        {
+            MessageBox.Show(id.ToString(), "Kategori");
+            con = new SqlConnection(Constr.ConStr);
+            cmd = con.CreateCommand();
+            InitializeComponent();
+        }
+        private void AddCategory_Load(object sender, EventArgs e)
+        {
+            //MessageBox.Show(Helper.cid.ToString(), "Kategori");
+        }
         private void btn_catadd_Click(object sender, EventArgs e)
         {
             btn_catedit.Visible = false;
@@ -47,6 +57,7 @@ namespace NORTHWNDWinForm
                     con.Close();
                 }
             }
+            this.Close();
         }
 
         private void btn_catedit_Click(object sender, EventArgs e)
@@ -80,6 +91,8 @@ namespace NORTHWNDWinForm
                 
             }
         }
+
+        
     }
 }
 
